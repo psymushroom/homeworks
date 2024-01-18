@@ -1,0 +1,20 @@
+let measure = " кг"
+let amount = 10
+
+let convert;
+
+switch (measure) {
+    case " км": 
+	convert = amount * 1000;
+        console.log(amount + measure + " це " + convert + " м");
+        break;
+    case " год":
+       convert = amount * 60;
+        console.log(amount + measure + " це " + convert + " хв");
+        break;
+    case " кг":
+        convert = amount * 1000;
+        console.log(amount + measure + " це " + convert + " грм");
+        break;
+    default:
+        console.log("Таке я не вмію рахувати");}

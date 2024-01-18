@@ -1,0 +1,13 @@
+let age = prompt("Вкажіть ваш вік");
+if (age % 10 === 1) {
+console.log("Вам " + age + " рік")
+}
+else if (age % 10 === 2 || age % 10 === 3 || age % 10 === 4) {
+console.log("Вам " + age + " роки")
+}
+else if (age <= 0) {
+console.log("Невірне значення")
+}
+else {
+console.log("Вам " + age + " років")
+}
